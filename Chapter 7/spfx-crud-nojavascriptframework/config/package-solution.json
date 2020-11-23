@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-crud-nojavascriptframework-client-side-solution",
+    "id": "2d8445a8-dbb0-46a6-8363-465511cacf36",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-crud-nojavascriptframework.sppkg"
+  }
+}

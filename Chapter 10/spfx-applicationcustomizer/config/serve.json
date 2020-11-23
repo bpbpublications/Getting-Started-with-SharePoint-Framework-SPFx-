@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://vipsitworld.sharepoint.com/sites/ModernTeamSite/SitePages/Appcustomizer.aspx",
+      "customActions": {
+        "4a18dbc7-9fbd-4224-8ac7-f73aae162a97": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Page Header",
+            "Bottom": "Page Footer"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://vipsitworld.sharepoint.com/sites/ModernTeamSite/SitePages/Appcustomizer.aspx",
+      "customActions": {
+        "4a18dbc7-9fbd-4224-8ac7-f73aae162a97": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Page Header",
+            "Bottom": "Page Footer"
+          }
+        }
+      }
+    }
+  }
+}

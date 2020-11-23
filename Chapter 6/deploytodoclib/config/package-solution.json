@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-deploytodoclib-client-side-solution",
+    "id": "017c8248-a6fb-481c-9eb0-66f9267c31f4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": false,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-deploytodoclib.sppkg"
+  }
+}

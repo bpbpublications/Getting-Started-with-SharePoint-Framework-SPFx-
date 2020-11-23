@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://vipsitworld.sharepoint.com/sites/ModernTeamSite/Lists/UserDirectory/AllItems.aspx",
+      "customActions": {
+        "2eaf53c3-226c-4a34-a404-6545653fd87d": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://vipsitworld.sharepoint.com/sites/ModernTeamSite/Lists/UserDirectory/AllItems.aspx",
+      "customActions": {
+        "2eaf53c3-226c-4a34-a404-6545653fd87d": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

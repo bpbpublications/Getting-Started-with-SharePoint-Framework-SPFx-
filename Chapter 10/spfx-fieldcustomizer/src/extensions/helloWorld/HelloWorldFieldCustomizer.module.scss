@@ -1,0 +1,10 @@
+.HelloWorld {
+  .cell {
+    background-color: "[theme:themePrimary, default:#e5e5e5]";
+    display: 'inline-block';
+  }
+  .full {
+    background-color: #e7e7e7;
+    width: 100px;
+  }
+}

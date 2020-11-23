@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfxpropertypane-client-side-solution",
+    "id": "2299ca7b-f0d1-4c0d-a099-2151b6184578",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfxpropertypane.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-library-library": {
+      "components": [
+        {
+          "entrypoint": "./lib/libraries/customLibrary/CustomLibraryLibrary.js",
+          "manifest": "./src/libraries/customLibrary/CustomLibraryLibrary.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CustomLibraryLibraryStrings": "lib/libraries/customLibrary/loc/{locale}.js"
+  }
+}

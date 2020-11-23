@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://vipsitworld.sharepoint.com/sites/ModernTeamSite/Lists/Employee/AllItems.aspx",
+      "fieldCustomizers": {
+        "PercentComplete": {
+          "id": "e6f987f4-a743-4ba8-b79d-f280deece1a8",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://vipsitworld.sharepoint.com/sites/ModernTeamSite/Lists/Employee/AllItems.aspx",
+      "fieldCustomizers": {
+        "PercentComplete": {
+          "id": "e6f987f4-a743-4ba8-b79d-f280deece1a8",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}

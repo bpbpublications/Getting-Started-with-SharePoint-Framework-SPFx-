@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "deploytoazurecdn-client-side-solution",
+    "id": "d7dff7f2-5714-490b-ac62-d59f1b153396",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": false,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/deploytoazurecdn.sppkg"
+  }
+}
